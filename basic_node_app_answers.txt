@@ -1,0 +1,4 @@
+1. A node module is essentially just a javascript library containing code that can be accessed anywhere in the application.
+
+2. exports is just a reference to module.exports
+3. using just exports as opposed to module.exports is recommended because it won’t overwrite anything already attached to module.exports. meaning you can assign anything you want to exports, but it won’t override any function or code you have written to module.exports.
